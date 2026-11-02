@@ -1,11 +1,11 @@
-# Judul Project
+# Project Title
 Analyzing Business Trends with Kibana
 ## Repository Outline
 - Folder `images` contain screenshot for all business plot and insights
-- P2M3_fauzan_abdurrochman_DAG.py | Contain the DAG (Pipeline) for airflow, starting from make a table for SQL until post data to ElasticSearch
-- P2M3_fauzan_abdurrochman_GX.ipynb | Notebook contain a data expectation validation, to ensure data has a high quality
-- P2M3_fauzan_abdurrochman_raw.csv | CSV file containing the raw dataset e.g no processing performed
-- P2M3_fauzan_abdurrochman_clean.csv | CSV file that has been cleaned (Column normalization, Missing values handling, etc.)
+- main_DAG.py | Contain the DAG (Pipeline) for airflow, starting from make a table for SQL until post data to ElasticSearch
+- data_GX.ipynb | Notebook contain a data expectation validation, to ensure data has a high quality
+- data_raw.csv | CSV file containing the raw dataset e.g no processing performed
+- data_clean.csv | CSV file that has been cleaned (Column normalization, Missing values handling, etc.)
 
 ## Problem Background
 Restaurant A (Anonymized name) has a problem with its data, each outlet has a different data, meaning data is scattered and unorganized, this is one of the few challenges about outlets, which makes it difficult to analyze business trends & compare performace across outlets
